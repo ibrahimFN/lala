@@ -10,7 +10,7 @@ const bot = new Discord.Client();
 
     // Login to Discord require discordToken in .env file
     require("dotenv").config()
-    await bot.login(process.env.discordToken);
+    await bot.login(process.env.TOKEN);
 
     // Register Discord Events
     const eventFiles = fs.readdirSync(join(__dirname, 'events')).filter(file => file.endsWith('.js'));
