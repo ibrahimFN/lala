@@ -9,5 +9,5 @@ module.exports.Channels = Object.freeze({
 })
 
 module.exports.Param = Object.freeze({
-    prefix: "*",
+    prefix: "$",
 })
